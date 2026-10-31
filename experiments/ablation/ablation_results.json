@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Full Pipeline",
+    "configuration": {
+      "include_intake": true,
+      "include_customer": true,
+      "include_document": true,
+      "include_external": true,
+      "include_claims": true,
+      "mode": "automated"
+    },
+    "accuracy": 0.9676,
+    "escalation_rate": 0.0,
+    "mean_confidence": 

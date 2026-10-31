@@ -1,0 +1,1193 @@
+[
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 80,
+    "confidence": 0.9,
+    "reasons": [
+      "Poor credit score",
+      "High claim amount relative to premium",
+      "High claim-to-premium ratio"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 1
+  },
+  {
+    "decision": "Reject",
+    "risk_score": 90,
+    "confidence": 0.95,
+    "reasons": [
+      "Fraud flag present",
+      "High fraud risk"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 2
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 70,
+    "confidence": 0.8,
+    "reasons": [
+      "High claim-to-premium ratio",
+      "Young driver age",
+      "High vehicle value"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 3
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 80,
+    "confidence": 0.85,
+    "reasons": [
+      "Poor credit score",
+      "High claim amount relative to premium",
+      "High claim-to-premium ratio"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 4
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 70,
+    "confidence": 0.8,
+    "reasons": [
+      "Poor credit score",
+      "High claim-to-premium ratio",
+      "High age"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 5
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 85,
+    "confidence": 0.85,
+    "reasons": [
+      "High claim-to-premium ratio",
+      "Applicant age 18 indicates higher risk",
+      "Credit score moderate but not poor",
+      "Premium relatively low compared to claim amount"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 6
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 70,
+    "confidence": 0.85,
+    "reasons": [
+      "High claim-to-premium ratio",
+      "Moderate credit score with high claim amount"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 7
+  },
+  {
+    "decision": "Reject",
+    "risk_score": 90,
+    "confidence": 0.95,
+    "reasons": [
+      "Fraud flag present",
+      "High claim amount relative to premium",
+      "High fraud risk"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 8
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 80,
+    "confidence": 0.85,
+    "reasons": [
+      "Poor credit score (549)",
+      "High claim amount ($24819.9) relative to premium ($3217.36)",
+      "High claim-to-premium ratio (~7.7)",
+      "Applicant age 68"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 9
+  },
+  {
+    "decision": "Reject",
+    "risk_score": 90,
+    "confidence": 0.95,
+    "reasons": [
+      "Fraud flag is true",
+      "High claim amount relative to premium",
+      "Poor credit score"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 10
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 80,
+    "confidence": 0.85,
+    "reasons": [
+      "Poor credit score",
+      "High claim amount relative to premium",
+      "High claim-to-premium ratio"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 11
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 80,
+    "confidence": 0.9,
+    "reasons": [
+      "Poor credit score",
+      "High claim amount relative to premium",
+      "High claim-to-premium ratio",
+      "Young age"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 12
+  },
+  {
+    "decision": "Reject",
+    "risk_score": 90,
+    "confidence": 0.95,
+    "reasons": [
+      "Fraud flag is true indicating high fraud risk",
+      "Poor credit score and high claim amount increase overall risk"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 13
+  },
+  {
+    "decision": "Reject",
+    "risk_score": 90,
+    "confidence": 0.95,
+    "reasons": [
+      "Fraud flag true indicates high fraud risk",
+      "Applicant age 19 and poor credit score increase risk",
+      "High claim amount relative to premium"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 14
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 70,
+    "confidence": 0.85,
+    "reasons": [
+      "Poor credit score (427)",
+      "High claim-to-premium ratio (~2.8)",
+      "High claim amount relative to premium"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 15
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 85,
+    "confidence": 0.8,
+    "reasons": [
+      "Poor credit score",
+      "High claim amount relative to premium",
+      "High claim-to-premium ratio"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 16
+  },
+  {
+    "decision": "Reject",
+    "risk_score": 95,
+    "confidence": 0.98,
+    "reasons": [
+      "Fraud flag true",
+      "High claim amount relative to premium",
+      "Poor credit score"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 17
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 70,
+    "confidence": 0.8,
+    "reasons": [
+      "Poor credit score",
+      "High claim-to-premium ratio",
+      "Fraud flag false"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_Standard",
+    "application_id": 18
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 80,
+    "confidence": 0.8,
+    "reasons": [
+      "Poor credit score",
+      "High claim amount relative to premium",
+      "High claim-to-premium ratio"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 19
+  },
+  {
+    "decision": "Reject",
+    "risk_score": 90,
+    "confidence": 0.95,
+    "reasons": [
+      "Fraud flag is true",
+      "High claim-to-premium ratio",
+      "High claim amount relative to premium"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 20
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 80,
+    "confidence": 0.85,
+    "reasons": [
+      "Poor credit score",
+      "High claim amount",
+      "High claim-to-premium ratio"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 21
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 70,
+    "confidence": 0.85,
+    "reasons": [
+      "High claim-to-premium ratio (\u224816.4), indicating elevated risk",
+      "Good credit score but claim amount significantly exceeds premium",
+      "Fraud flag is false, no fraud risk"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 22
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 65,
+    "confidence": 0.8,
+    "reasons": [
+      "High claim-to-premium ratio",
+      "Good credit score mitigates risk",
+      "Fraud flag false"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 23
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 70,
+    "confidence": 0.85,
+    "reasons": [
+      "High claim-to-premium ratio",
+      "Good credit score mitigates risk",
+      "Fraud flag false"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 24
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 70,
+    "confidence": 0.8,
+    "reasons": [
+      "High claim-to-premium ratio indicates elevated risk",
+      "Credit score is good but claim amount high relative to premium",
+      "Fraud flag is false"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 25
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 70,
+    "confidence": 0.8,
+    "reasons": [
+      "High claim-to-premium ratio",
+      "Applicant age 75",
+      "Credit score moderate",
+      "No fraud flag"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 26
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 70,
+    "confidence": 0.85,
+    "reasons": [
+      "High claim-to-premium ratio",
+      "Young age increases risk",
+      "Moderate credit score"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 27
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 85,
+    "confidence": 0.8,
+    "reasons": [
+      "Poor credit score (382)",
+      "High claim amount ($33619.44) relative to premium ($3576.84)",
+      "High claim-to-premium ratio (~9.4)"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 28
+  },
+  {
+    "decision": "Reject",
+    "risk_score": 90,
+    "confidence": 0.95,
+    "reasons": [
+      "Fraud flag is true",
+      "High claim amount relative to premium",
+      "Poor credit score"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 29
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 85,
+    "confidence": 0.8,
+    "reasons": [
+      "Poor credit score (487)",
+      "High claim amount ($32994.45) relative to premium ($3376.95)",
+      "Applicant age 73 indicates higher risk"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 30
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 70,
+    "confidence": 0.85,
+    "reasons": [
+      "Poor credit score",
+      "High claim amount relative to premium",
+      "High claim-to-premium ratio"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 31
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 80,
+    "confidence": 0.85,
+    "reasons": [
+      "Poor credit score",
+      "High claim amount relative to premium",
+      "High claim-to-premium ratio"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 32
+  },
+  {
+    "decision": "Reject",
+    "risk_score": 90,
+    "confidence": 0.95,
+    "reasons": [
+      "Fraud flag is true",
+      "High claim amount relative to premium",
+      "Poor credit score"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 33
+  },
+  {
+    "decision": "Reject",
+    "risk_score": 90,
+    "confidence": 0.95,
+    "reasons": [
+      "Fraud flag indicates high risk",
+      "Fraud risk overrides other factors"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 34
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 85,
+    "confidence": 0.9,
+    "reasons": [
+      "Poor credit score",
+      "High claim amount",
+      "High claim-to-premium ratio",
+      "Young age"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 35
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 85,
+    "confidence": 0.9,
+    "reasons": [
+      "High claim-to-premium ratio",
+      "High claim amount relative to premium",
+      "Good credit score mitigates but not enough"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 36
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 75,
+    "confidence": 0.8,
+    "reasons": [
+      "Poor credit score",
+      "High claim amount relative to premium",
+      "High claim-to-premium ratio"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 37
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 85,
+    "confidence": 0.8,
+    "reasons": [
+      "Age below 25",
+      "Credit score below 600",
+      "High claim-to-premium ratio",
+      "High claim amount relative to premium"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 38
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 85,
+    "confidence": 0.8,
+    "reasons": [
+      "Poor credit score (324)",
+      "High claim amount relative to premium",
+      "High claim-to-premium ratio (~13.35)",
+      "Young age (19)"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 39
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 70,
+    "confidence": 0.85,
+    "reasons": [
+      "Poor credit score (450)",
+      "High claim amount ($20737.73)",
+      "High claim-to-premium ratio (~6.06)",
+      "Applicant age 61"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 40
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 75,
+    "confidence": 0.85,
+    "reasons": [
+      "Poor credit score",
+      "High claim-to-premium ratio",
+      "High claim amount relative to premium"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_Standard",
+    "application_id": 41
+  },
+  {
+    "decision": "Reject",
+    "risk_score": 90,
+    "confidence": 0.95,
+    "reasons": [
+      "Fraud flag present",
+      "High risk due to fraud indicator"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 42
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 70,
+    "confidence": 0.8,
+    "reasons": [
+      "High claim-to-premium ratio",
+      "Fair credit score with high claim amount",
+      "No fraud flag"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 43
+  },
+  {
+    "decision": "Accept_with_Surcharge",
+    "risk_score": 70,
+    "confidence": 0.8,
+    "reasons": [
+      "High claim-to-premium ratio",
+      "Credit score is good but claim amount high relative to premium",
+      "Fraud flag is false"
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 44
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 45
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 46
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 47
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 48
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 49
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 50
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 51
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 52
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 53
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 54
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 55
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_Standard",
+    "application_id": 56
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 57
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 58
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 59
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_Standard",
+    "application_id": 60
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 61
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 62
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 63
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_Standard",
+    "application_id": 64
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_Standard",
+    "application_id": 65
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 66
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 67
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 68
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 69
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 70
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 71
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 72
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 73
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 74
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 75
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 76
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 77
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 78
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 79
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 80
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 81
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 82
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 83
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 84
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 85
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_Standard",
+    "application_id": 86
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 87
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 88
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 89
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 90
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 91
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 92
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 93
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 94
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_Standard",
+    "application_id": 95
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 96
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 97
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 98
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Accept_with_Surcharge",
+    "application_id": 99
+  },
+  {
+    "decision": "Error",
+    "risk_score": 0,
+    "confidence": 0,
+    "reasons": [
+      "Connection error."
+    ],
+    "baseline": "B3_llm_agent",
+    "true_decision": "Reject",
+    "application_id": 100
+  }
+]
